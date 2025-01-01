@@ -81,7 +81,7 @@ header {
 
 .main-section {
 
-    height: calc(100vh - 120px); /* Accounts for header height */
+    height: calc(100vh - 120px); 
     display: flex;
     flex-direction: column;
     justify-content: center;
