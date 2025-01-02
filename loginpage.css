@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    z-index: -1; 
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: url("ASSETS/netflix-bg-img.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    height: 92px;
+    width: 1057px;
+    margin-left: 105.7px;
+    margin-right: 105.7px;
+    padding: 24px 48px 24px 48px;
+}
+.head-nav {
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.main-content {
+    width: 100%;
+    height: 826.6px;
+    margin-left: 345.962px;
+    margin-right: 345.962px;
+    margin-bottom: 50px;
+    padding-left: 63.4px;
+    padding-right: 63.4px;
+   
+}

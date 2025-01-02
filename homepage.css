@@ -11,7 +11,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.7); 
     z-index: -1; 
 }
 
@@ -112,7 +112,7 @@ h3 {
 }
 
  
-.email-section {
+.email-section form{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,3 +157,12 @@ form input::placeholder {
     cursor: pointer; 
     padding: 0 20px; 
 }
+
+
+.line {
+    height: 10px;
+    width: 100%;
+    background: linear-gradient(to right,blue,red);
+    border: none;
+}
+
