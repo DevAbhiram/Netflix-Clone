@@ -48,15 +48,70 @@ header {
 }
 
 .signin {
-    width: 314px;
-    height: 645px;
+    width: 450px;
+    height: 738px;
+    line-height: 2;
     padding: 48px 68px 48px 68px;
-    background-color: black;
-    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.501);
     border-radius: 8px;
 }
 
 
 .hed {
     color: #fff;
+}
+
+.signin input {
+    width: 20rem;
+    height: 3.5rem;
+    border-radius: 8px;
+    color: transparent;
+    background-color: transparent;
+    border: 1px solid grey;
+    margin-bottom: 0.75rem;
+}
+
+.signin input::placeholder {
+    font-size: 1rem;
+    padding: 24px 16px 8px;
+}
+
+
+.sign-btn {
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    background-color: red;
+    color: #fff;
+    font-size: 1.15rem;
+    border: none;
+    margin-bottom: 0.75rem;
+}
+
+.code-btn {
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    background-color: rgba(128, 128, 128, 0.349);
+    color: #fff;
+    font-size: 1.15rem;
+    border: none;
+    margin-bottom: 0.75rem;
+}
+.code-btn:hover {
+    background-color:  rgba(128, 128, 128, 0.249);
+}
+.code-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.centered {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 1rem;
 }
