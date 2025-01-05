@@ -115,3 +115,22 @@ header {
     font-size: 1rem;
     margin-bottom: 1rem;
 }
+
+.remember-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.remember-container input[type="checkbox"] {
+    height: 16px;
+    width: 20px;
+    margin: 0;
+}
+
+.remember-container label {
+    cursor: pointer;
+    color: #fff;
+    font-size: 1rem;
+}
