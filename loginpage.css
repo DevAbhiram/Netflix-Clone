@@ -154,3 +154,7 @@ header {
     color: blue;
     text-decoration: none;
 }
+
+footer {
+    background-color: #000;
+}
