@@ -68,7 +68,7 @@ header {
     color: transparent;
     background-color: transparent;
     border: 1px solid grey;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.9rem;
 }
 
 .signin input::placeholder {
@@ -133,4 +133,24 @@ header {
     cursor: pointer;
     color: #fff;
     font-size: 1rem;
+}
+
+.anchor {
+    margin-left: 10px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+
+.reCAPTCHA {
+    color: grey;
+    height: 10.4rem;
+    width: 19.625rem;
+    font-size: 0.75rem;
+}
+
+
+.reCAPTCHA a {
+    color: blue;
+    text-decoration: none;
 }
