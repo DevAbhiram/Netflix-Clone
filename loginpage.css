@@ -45,7 +45,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .signin {
@@ -55,11 +54,6 @@ header {
     padding: 48px 68px 48px 68px;
     background-color: rgba(0, 0, 0, 0.501);
     border-radius: 8px;
-}
-
-
-.hed {
-    color: #fff;
 }
 
 .signin input {
@@ -76,7 +70,6 @@ header {
     font-size: 1rem;
     padding: 24px 16px 8px;
 }
-
 
 .sign-btn {
     width: 20rem;
@@ -99,9 +92,11 @@ header {
     border: none;
     margin-bottom: 0.75rem;
 }
+
 .code-btn:hover {
-    background-color:  rgba(128, 128, 128, 0.249);
+    background-color: rgba(128, 128, 128, 0.249);
 }
+
 .code-btn a {
     text-decoration: none;
     color: #fff;
@@ -142,7 +137,6 @@ header {
     margin-bottom: 20px;
 }
 
-
 .reCAPTCHA {
     color: grey;
     height: 10.4rem;
@@ -150,28 +144,65 @@ header {
     font-size: 0.75rem;
 }
 
-
 .reCAPTCHA a {
     color: blue;
     text-decoration: none;
 }
 
+/* Updated Footer Section */
 footer {
     background-color: #000;
 }
 
 .outer-footer {
     width: 100%;
-    height: 310.4px;
+    height: auto; 
+    padding: 72px 105.738px;
+    background-color: #000;
 }
 
-.inner-footer  {
+.inner-footer {
+    color: #fff;
     width: 100%;
-    height: 10.39rem;
     padding-left: 48px;
     padding-right: 48px;
-    margin: auto auto;
-    margin-top: 72px;
-    margin-bottom: 72px;
     display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 16px; 
+}
+
+.inner-div {
+    color: grey;
+    font-size: 1rem;
+}
+
+.inner-footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    line-height: 3;
+}
+
+.inner-footer ul li {
+    margin: 0 75px;
+}
+
+.inner-footer ul li a {
+    /* text-decoration: none; */
+    color: grey;
+}
+
+#lang-select {
+    width: 8rem;
+    height: 2rem;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #ffffffab;
+    font-size: 18px;
+    border: 1px solid #fff;
+
 }
