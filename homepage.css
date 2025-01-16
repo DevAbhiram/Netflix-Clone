@@ -166,3 +166,43 @@ form input::placeholder {
     border: none;
 }
 
+
+
+.down-content {
+    padding-left: 148px;
+    padding-right: 148px;
+    align-items: center;          
+}
+
+.down-content h2 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.selection {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.selection select {
+    width: 7rem;
+    height: 2.3rem;
+    border-radius: 5px;
+    /* border: 1px solid #ccc; */
+    background-color: transparent;;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 10px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.selection select:focus {
+    outline: none;
+    border: 2px solid #ccc;
+    color: grey;
+    /* box-shadow: 0 0 5px rgba(255, 0, 0, 0.5); */
+}
