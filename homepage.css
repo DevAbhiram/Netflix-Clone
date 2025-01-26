@@ -206,3 +206,14 @@ form input::placeholder {
     color: grey;
     /* box-shadow: 0 0 5px rgba(255, 0, 0, 0.5); */
 }
+
+
+.movie-slide {
+    display: flex;
+    flex-direction: row;
+}
+
+.movie-slide>div {
+    width: 10rem;
+    height: 8rem;
+}
